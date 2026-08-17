@@ -92,6 +92,8 @@ body.dark .orido_tm_informations .timelinebox ul li .list_inner { background: #1
 body.dark .orido_tm_informations .timelinebox ul li .list_inner:hover { border-color: #475569; border-left-color: #2563eb; }
 body.dark .orido_tm_informations .timelinebox .time .year { color: #3b82f6; }
 body.dark .orido_tm_informations .timelinebox .time .company { color: #64748b; }
+body.dark .orido_tm_informations .timelinebox .job_highlights li { color: #cbd5e1 !important; }
+body.dark .orido_tm_informations .timelinebox .job_highlights li::before { color: #60a5fa !important; }
 
 /* Counter */
 body.dark .orido_tm_counter { background: #1e293b; }

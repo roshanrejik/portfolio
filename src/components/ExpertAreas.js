@@ -5,80 +5,96 @@ import useScrollReveal from "../useScrollReveal";
 
 const counts = [
   {
-    name: "Frameworks",
-    value: 6,
+    name: "Years Experience",
+    value: 4,
     suffix: "+",
     icon: (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="16 18 22 12 16 6" /><polyline points="8 6 2 12 8 18" /></svg>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
     ),
   },
   {
-    name: "Packages Used",
-    value: 40,
+    name: "Mobile Apps & Deployments",
+    value: 15,
     suffix: "+",
     icon: (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" /><polyline points="3.27 6.96 12 12.01 20.73 6.96" /><line x1="12" y1="22.08" x2="12" y2="12" /></svg>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2" /><line x1="12" y1="18" x2="12.01" y2="18" /></svg>
     ),
   },
   {
-    name: "Corporate Projects",
-    value: 7,
+    name: "Tech Companies",
+    value: 3,
     suffix: "",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2" /><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" /></svg>
     ),
   },
   {
-    name: "Own Projects",
-    value: 4,
-    suffix: "",
+    name: "Startup Time Improvement",
+    value: 600,
+    suffix: "ms",
     icon: (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z" /><path d="M2 17l10 5 10-5" /><path d="M2 12l10 5 10-5" /></svg>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" /></svg>
     ),
   },
 ];
 
 const skills = [
-  { name: "React Native", value: "", icon: "img/svg/reactnative.svg" },
-  { name: "Next JS", value: "", icon: "img/svg/nextjs.svg" },
-  { name: "React JS", value: "", icon: "img/svg/reactjs.svg" },
-  { name: "Node JS", value: "", icon: "img/svg/nodejs.svg" },
-  { name: "TypeScript", value: "", icon: "img/svg/typescript.png" },
-  { name: "Express JS", value: "", icon: "img/svg/express.svg" },
-  { name: "Mongo DB", value: "", icon: "img/svg/mongodb.png" },
-  { name: "Firebase", value: "", icon: "img/svg/firebase.png" },
-  { name: "AWS", value: "", icon: "img/svg/aws.png" },
-  { name: "Docker", value: "", icon: "img/svg/docker.png" },
+  { name: "React Native", icon: "img/svg/reactnative.svg" },
+  { name: "Expo", icon: "img/svg/reactnative.svg" },
+  { name: "TypeScript", icon: "img/svg/typescript.png" },
+  { name: "JavaScript (ES6+)", icon: "img/svg/reactjs.svg" },
+  { name: "React.js", icon: "img/svg/reactjs.svg" },
+  { name: "Redux Toolkit", icon: "img/svg/nextjs.svg" },
+  { name: "GraphQL", icon: "img/svg/nextjs.svg" },
+  { name: "Tamagui & Reanimated", icon: "img/svg/reactnative.svg" },
+  { name: "Jest & RTL", icon: "img/svg/reactjs.svg" },
+  { name: "Datadog & Mixpanel", icon: "img/svg/aws.png" },
+  { name: "Fastlane & CircleCI", icon: "img/svg/docker.png" },
+  { name: "REST APIs & Auth0", icon: "img/svg/express.svg" },
 ];
 
 const experiences = [
   {
-    company: "Apps Team Technologies Pvt. Ltd.",
-    designation: "Sr. Software Developer",
-    time: "Nov 2023 – Present",
+    company: "Cloudium Software - Kochi, India",
+    designation: "Senior Software Engineer",
+    time: "04/2026 – Current",
+    highlights: [
+      "Refactored and optimized the React Native codebase to improve performance, maintainability, and scalability.",
+      "Reduced app startup time (by 600ms) and JavaScript bundle size (by 30%) through performance tuning.",
+      "Built reusable components and enhanced application stability across iOS and Android.",
+      "Utilized Datadog for application performance monitoring and crash analysis."
+    ]
   },
   {
-    company: "CoStrategix",
-    designation: "Associate Software Engineer",
-    time: "May 2022 – Nov 2023",
+    company: "Apps Team Technologies Pvt. Ltd. - Kochi, Kerala",
+    designation: "Senior Software Developer",
+    time: "11/2023 – 03/2026",
+    highlights: [
+      "Delivered production-ready mobile applications using React Native and TypeScript within defined scope and timeline.",
+      "Followed Test-Driven Development (TDD) practices to ensure reliable, maintainable codebase.",
+      "Integrated mobile apps with secure backend APIs using token-based authentication (JWT-based systems).",
+      "Enhanced application performance and stability by 30% through optimized component rendering and state management.",
+      "Supported DevSecOps initiatives by contributing to CI/CD pipelines and secure release workflows."
+    ]
   },
   {
-    company: "Freelancer.com",
-    designation: "Software Developer (MERN)",
-    time: "Nov 2021 – May 2022",
+    company: "CoStrategix - Bangalore, Karnataka",
+    designation: "Software Developer",
+    time: "05/2022 – 11/2023",
+    highlights: [
+      "Developed cross-platform mobile features using React Native following clean architecture practices.",
+      "Integrated REST APIs and implemented secure authentication flows.",
+      "Contributed to iterative software releases in an Agile development environment using React Native and TypeScript.",
+      "Collaborated with QA and DevOps teams to improve release quality and operational efficiency."
+    ]
   }
 ];
 
 const educations = [
   {
-    institution: "PES University / Kuvempu University",
-    certificate: "Bachelor of Computer Application (BCA)",
-    time: "2018 - 2021",
-  },
-  {
-    institution: "Acharya Institute of Management and Science",
-    certificate: "PCMCs, Engineering Science",
-    time: "2016 - 2018",
+    institution: "Kuvempu University - Shimoga",
+    certificate: "Bachelor's Degree (GPA: 7.86)",
+    time: "11/2021",
   }
 ];
 
@@ -110,13 +126,17 @@ const ExpertAreas = () => {
                 </div>
                 <div className="text" data-reveal="left" data-reveal-delay="1">
                   <p>
-                    With a deep understanding of React.js, I specialize in crafting dynamic and interactive user interfaces. Proficient in leveraging Reacts component-based architecture and state management for seamless front-end development.
+                    I specialize in developing high-performance, cross-platform mobile applications using React Native, Expo, and TypeScript, ensuring native-level fluid UI and optimal performance across iOS and Android.
                   </p>
                   <p>
-                    As a Next.js enthusiast, I harness the power of server-side rendering and static site generation to create blazing-fast, SEO-friendly web applications. Skilled in optimizing performance and building scalable projects using Next.js.
+                    Strong expertise in Test-Driven Development (TDD), token-based authentication (JWT), state management (Redux Toolkit), and integrating complex REST and GraphQL APIs.
                   </p>
-                  <p>I excel in developing cross-platform mobile applications using React Native, ensuring a native-like experience across iOS and Android platforms. Well-versed in creating efficient, visually appealing mobile solutions.</p>
-                  <p>With Node.js, I wield the ability to build robust, scalable back-end solutions. Leveraging its asynchronous nature, I design and implement APIs, handle data, and ensure seamless communication between the front and back end.</p>
+                  <p>
+                    Experienced in performance tuning, reducing JavaScript bundle sizes by 30% and app startup times by 600ms using Datadog monitoring, Tamagui, and Reanimated.
+                  </p>
+                  <p>
+                    Proficient in setting up CI/CD workflows, Fastlane automation, and managing seamless production deployments to both the Apple App Store and Google Play Store.
+                  </p>
                 </div>
                 {/* <div className="orido_tm_boxed_button">
                   <a href="#">
@@ -214,6 +234,15 @@ const ExpertAreas = () => {
                                 <h3>
                                   <span>{experience.designation}</span>
                                 </h3>
+                                {experience.highlights && (
+                                  <ul className="job_highlights">
+                                    {experience.highlights.map((item, idx) => (
+                                      <li key={idx}>
+                                        {item}
+                                      </li>
+                                    ))}
+                                  </ul>
+                                )}
                               </div>
                             </div>
                           </li>

@@ -11,7 +11,7 @@ const Header = () => {
             />
             <span className="logo_text">
               <span className="logo_name">Roshan Reji K</span>
-              <span className="logo_role">Full-Stack Engineer</span>
+              <span className="logo_role">Senior Mobile Software Engineer</span>
             </span>
           </a>
         </div>

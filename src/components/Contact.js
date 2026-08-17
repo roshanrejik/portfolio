@@ -36,17 +36,21 @@ const Contact = () => {
             <div className="left">
               <ul>
                 <li>
+                  <span className="name">Location:</span>
+                  <p>Kochi, India 682042</p>
+                </li>
+                <li>
                   <span className="name">Call:</span>
                   <p>
-                    <a className="line_effect" href="tel:971551381851" target="_blank" rel="noopener noreferrer">
-                      +91-9019431231
+                    <a className="line_effect" href="tel:+919019431231">
+                      +91 9019431231
                     </a>
                   </p>
                 </li>
                 <li>
                   <span className="name">Email:</span>
                   <p>
-                    <a className="line_effect" href="mailto:samsudeen.mohammedkunhi@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <a className="line_effect" href="mailto:roshanrejik@gmail.com">
                       roshanrejik@gmail.com
                     </a>
                   </p>
@@ -58,8 +62,8 @@ const Contact = () => {
                 <span>Follow me:</span>
                 <ul>
                   <li>
-                    <a href="https://www.linkedin.com/in/roshanrejik" target="_blank" rel="noopener noreferrer">
-                      <img className="svg" src="img/svg/social/linkedin.svg" alt="" />
+                    <a href="https://linkedin.com/in/roshanrejik" target="_blank" rel="noopener noreferrer">
+                      <img className="svg" src="img/svg/social/linkedin.svg" alt="LinkedIn" />
                     </a>
                   </li>
                   <li>
@@ -67,16 +71,16 @@ const Contact = () => {
                       <img
                         className="svg"
                         src="img/svg/social/github.svg"
-                        alt=""
+                        alt="GitHub"
                       />
                     </a>
                   </li>
                   <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://roshanrejik.github.io/portfolio/" target="_blank" rel="noopener noreferrer">
                       <img
                         className="svg"
-                        src="img/svg/social/instagarm.svg"
-                        alt=""
+                        src="img/svg/top-arrow.svg"
+                        alt="Portfolio"
                       />
                     </a>
                   </li>

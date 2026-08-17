@@ -7,15 +7,14 @@ const Home = () => {
       <div className="container">
         <div className="hero_inner">
           <div className="hero_content">
-            <span className="hero_tagline" data-reveal="down">Full-Stack Software Engineer & Mobile Expert</span>
+            <span className="hero_tagline" data-reveal="down">Senior Mobile Software Engineer</span>
             <h1 className="hero_title" data-reveal="up" data-reveal-delay="1">
               Hi, I&apos;m <span className="name_highlight">Roshan Reji K</span>
               <img className="svg wave_icon" src="img/svg/hi.svg" alt="" />
             </h1>
             <p className="hero_description" data-reveal="up" data-reveal-delay="2">
-              A Full-Stack Software Engineer with 4+ years of experience delivering
-              high-quality web and cross-platform mobile applications using React,
-              React Native, and Node.js.
+              Senior Mobile Software Engineer with 4+ years of experience delivering high-quality
+              cross-platform mobile applications using React Native and TypeScript.
             </p>
             <div className="hero_buttons" data-reveal="up" data-reveal-delay="3">
               <div className="orido_tm_boxed_button">
